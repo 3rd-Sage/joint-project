@@ -68,6 +68,11 @@ nav ul li .a::after {
    transition: 0.5s;
 }
 
+.select {
+   border: none;
+   margin-left: -5px;
+}
+
 /* nav ul li .a .active-tab::after {
    width: 100%;
 } */
@@ -82,6 +87,7 @@ nav ul li .b {
    color: #000000;
    border-width: 0.6rem;
    border-radius: 0.7rem;
+   padding: 0 3px;
 }
 
 /* nav ul li .b::after {
@@ -105,7 +111,7 @@ nav ul li .b:hover {
 }
 
 .header-text {
-   margin: 1.3rem;
+   margin: 1.7rem;
 }
 
 .list {
@@ -119,17 +125,19 @@ nav ul li .b:hover {
 }
 
 .spanlist {
-   font-weight: 550;
+   font-weight: 700;
+   font-size: large;
    margin-top: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 .list1 {
-   padding-right: 4rem;
+   padding-right: 3rem;
 }
 
  .list2, .list3, .list4 {
-   padding: 0 2rem 0 4rem;
+   padding: 0 3rem 0 4rem;
 }
 
 .border {
@@ -140,10 +148,10 @@ nav ul li .b:hover {
    color: white;
    background-color: black;
    text-decoration: none;
-   padding: 3.3rem 1.3rem;
+   padding: 3.37rem 1.3rem;
    position: absolute;
-   top: 15.4rem;
-   right: 11rem;
+   top: 16.2rem;
+   right: 11.2rem;
 }
 
 /* .row {
@@ -181,11 +189,16 @@ nav ul li .b:hover {
    bottom: 0;
    border: 0 solid;
    display: flex;
-   padding: 50px;
+   padding: 40px;
    align-items: right;
    justify-content: right;
-   background: rgba(255, 255, 255, .2);
-   box-shadow: 15px 5px 15px 15px rgba(0, 0, 0, .5);
+   /* background: rgba(255, 255, 255, .2); */
+   background-image: linear-gradient(
+      to right top,
+      rgba(73, 67, 144, 0) 30%,
+      rgba(31, 7, 250, 0.738));
+   box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, .5);
+   
    /* filter: blur(1px); */
    /* margin-left: 82%;
    margin-top: 18.6%; */
@@ -215,7 +228,7 @@ span .arrow {
 }
 
 span p {
-   padding: 10px 0 20px 0;
+   padding: 15px 0 25px 0;
 }
 
 span h3 {
@@ -223,7 +236,7 @@ span h3 {
 }
 
 span img {
-   height: 105px;
+   height: 120px;
 }
 
 
