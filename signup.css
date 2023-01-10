@@ -5,21 +5,24 @@
    max-height: 1000px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+   position: relative;
+   background-color:  rgb(14, 14, 131);
+   align-items: center;
+   justify-content: center;
+   
+}
 #parent {
+   position: absolute;
+   right: 55px;
+   top: 50px;
    border: 1px solid white;
    height: 500px;
    width: 300px;
-   align-items: center;
-   justify-items: center;
-   justify-content: center;
    padding: 20px;
    border-radius: 2px;
    outline-color: blue;
    background-color: white;
-}
-body {
-   
-   background-color:  rgb(14, 14, 131);
 }
 
 label {
