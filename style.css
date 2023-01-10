@@ -94,3 +94,80 @@ nav ul li .b:hover {
    color: rgb(11, 11, 153);
    /* width: 100%; */
 } 
+
+.header-content {
+   text-align: center;
+   margin-top: 6rem;
+   position: relative;
+}
+
+.header-text {
+   margin: 1.3rem;
+}
+
+.list {
+   margin: 0 auto;
+   color: black;
+   background-color:white;
+   list-style: none;
+   display: flex;
+   padding: 2rem;
+   width: 63rem;
+}
+
+.spanlist {
+   font-weight: 550;
+   margin-top: 10px;
+}
+
+
+.list1 {
+   padding-right: 4rem;
+}
+
+ .list2, .list3, .list4 {
+   padding: 0 2rem 0 4rem;
+}
+
+.border {
+   border: .1rem solid rgba(51, 51, 51, 0.245);
+}
+
+.search {
+   color: white;
+   background-color: black;
+   text-decoration: none;
+   padding: 3.3rem 1.3rem;
+   position: absolute;
+   top: 15.4rem;
+   right: 11rem;
+}
+
+/* .row {
+   max-width: 100rem;
+   margin: 0 auto;
+}
+
+.col-1-of-2 {
+        width: calc((100%) / 2);
+    }
+
+    .col-1-of-3 {
+        width: calc((100%) / 3);
+    }
+
+    .col-2-of-3 {
+        width: calc(2 * ((100% ) / 3));
+    }
+
+    .col-1-of-4 {
+        width: calc((100% ) / 4);
+    }
+
+    .col-2-of-4 {
+        width: calc(2 * ((100%) / 4));
+    }
+
+    .col-3-of-4 {
+        width: calc(3 * ((100% - 3) / 4) + 2);
+    } */
