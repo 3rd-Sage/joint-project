@@ -22,6 +22,7 @@ body {
 
 .container {
    padding: 10px 10%;
+   position: relative;
 }
 
 nav {
@@ -171,3 +172,14 @@ nav ul li .b:hover {
     .col-3-of-4 {
         width: calc(3 * ((100% - 3) / 4) + 2);
     } */
+
+.border1 {
+   position: absolute;
+   left: 0;
+   border: 1px solid;
+   display: flex;
+   padding: 20px;
+   align-items: right;
+   justify-content: right;
+   
+}
