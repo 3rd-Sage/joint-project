@@ -183,7 +183,7 @@ nav ul li .b:hover {
         width: calc(3 * ((100% - 3) / 4) + 2);
     } */
 
-.border1 {
+.border1, .border2, .border3 {
    position: absolute;
    right: 0;
    bottom: 0;
@@ -202,7 +202,15 @@ nav ul li .b:hover {
    /* filter: blur(1px); */
    /* margin-left: 82%;
    margin-top: 18.6%; */
+   
+}
 
+.border2 {
+   display: none;
+}
+
+.border3 {
+   display: none;
 }
 
 .arrow button {
@@ -210,10 +218,18 @@ nav ul li .b:hover {
    background: none;
    color: white;
    border-radius: 50%;
+   height: 3rem;
+   width: 3rem;
    padding: 10px;
    align-items: center;
    justify-content: center;
-   
+}
+
+.arrow {
+   position: absolute;
+   right: 0;
+   bottom: 3rem;
+   left: 1100px;
 }
 /* span .arrow {
    padding: 5px;

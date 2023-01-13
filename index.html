@@ -58,17 +58,58 @@
                <h3>Nobunaga pagoda</h3>
                <p>Osaka, Japan</p>
                
-               <div class="arrow">
-                  <span><button>&lt;</button></span>
-                  <span><button>&gt;</button></span>
-               </div>
+               
             </span>
             <span>
                <img src="Alcatraz.jpg" alt="">
             </span>
          </div>
-      
+         <div class="border2">
+            <span>
+               <h3>Nuke Town  CODM </h3>
+               <p>Black, OPPS</p>
+            </span>
+            <span>
+               <img src="Alcatraz.jpg" alt="">
+            </span>
+         </div>
+         <div class="border3">
+            <span>
+               <h3>BayBeach Panama</h3>
+               <p>Palmview, Panama</p>
+            </span>
+            <span>
+               <img src="Alcatraz.jpg" alt="">
+            </span>
+         </div>
+         <div class="arrow">
+            <span><button onclick="showPrev()">&lt;</button></span>
+            <span><button onclick="showNext()">&gt;</button></span>
+         </div>
    </div>
+   <!-- ==== Javascript===== -->
+   <script>
+      var visibleDiv = 0;
+      function showDiv()
+      {
+         $(".border1").hide();
+         $(".border1:eq("+ visibleDiv +")").show();
+      }
+      showDiv()
 
+      function showNext()
+      {
+         if(visibleDiv== $(".border1").length-1)
+         {
+            visibleDiv = 0;
+         }
+         else {
+            visibleDiv ++;
+         }
+         showDiv();
+      }
+      showDiv()
+
+   </script>
 </body>
 </html>
